@@ -1,0 +1,43 @@
+.boton-5 span {
+    transition: .5s ease-in all;
+    right: 30%;
+
+    position: absolute;
+}
+
+.boton-5 svg {
+    width: 20px;
+    height: 20px;
+}
+
+.boton-5 {
+    transition: .5s ease all;
+}
+
+.boton-5 .icono {
+    display: flex;
+    align-items: center;
+    left: 30%;
+    transition: .5s ease all;
+
+    position: absolute;
+    opacity: 0;
+}
+
+.boton-5:hover span {
+    right: 50%;
+}
+
+.boton-5:hover .icono {
+    left: 80%;
+    opacity: 1;
+    fill: 'black';
+}
+
+.boton-5:hover {
+    background-color: bisque;
+}
+
+.boton-5:hover span {
+    color: black;
+}

@@ -1,0 +1,27 @@
+.boton-2::after {
+    content: '';
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: dodgerblue; */
+    transition: .4s ease-out all;
+
+    position: absolute;
+    z-index: 1;
+    /* Asegurándonos de su comienzo  */
+    top: 0%;
+    /* left: -100%; */
+    left: calc(-100% - 40px);
+
+    border-top: 72px solid dodgerblue;
+    /* border-left: 40px solid rgb(41, 110, 179); */
+    border-right: 40px solid transparent; 
+    /* border-bottom: 40px solid #908; */
+}
+
+.boton-2:hover::after {
+    left: 0%;
+}
+
+.boton-2:hover span {
+    color: black;
+}
